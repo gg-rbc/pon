@@ -144,4 +144,5 @@ local Sound = Instance.new("Sound",game:GetService("SoundService"))
 Sound.SoundId = "rbxassetid://232127604"
 Sound:Play()
 game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Инвиз загружен",["Text"] = "Нажми "..Keybind.." чтоб стать невидимым.",["Duration"] = 20,["Button1"] = "Пон"})
-game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Сервер .gg/rbc топ",["Text"] = "Согласен?,["Duration"] = 20,["Button1"] = "Согласен!"})
+wait(2)
+game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Сервер .gg/rbc топ",["Text"] = "Согласен?",["Duration"] = 20,["Button1"] = "Согласен!"})
